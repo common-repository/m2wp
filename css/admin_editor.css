@@ -1,0 +1,51 @@
+#m2i-modal-tabs > ul{
+	display: flex;
+	align-items: flex-end;
+	background-color: #E9E9E9;
+	border-radius: 3px;
+	height: 40px;
+}
+
+#m2i-modal-tabs > ul > li{
+	background-color: #FCFCFC;
+	height: 30px;
+	margin-bottom: 0;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px; 
+}
+
+#m2i-modal-tabs > ul > li.ui-state-active{
+	background-color: #007FFF;
+}
+
+#m2i-modal-tabs > ul > li.ui-state-active > a{
+	color: #FCFCFC;
+}
+
+#m2i-modal-tabs > ul > li > a{
+	padding: 5px 10px;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+#m2i-modal-tabs > ul > li:first-of-type{
+	margin-left: 5px;
+}
+
+#m2i-modal-tabs > ul > li:not(:last-of-type){
+	margin-right: 20px;
+}
+
+#m2i-modal-footer{
+	padding-bottom: 20px;
+	text-align: right;
+}
+
+#m2i-modal-footer > button{
+	display: inline-block;
+}
+
+.m2i-add-shortcode .dashicons {
+	color: #82878c;
+	vertical-align: middle;
+}

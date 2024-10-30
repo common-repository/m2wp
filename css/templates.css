@@ -1,0 +1,68 @@
+.m2i-single-product {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	max-width: 760px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.m2i-single-product .product-image a,
+.m2i-single-product .product-info a,
+.m2i-slider .m2i-product a,
+.bx-controls .bx-controls-direction a {
+	box-shadow: none;
+}
+
+.m2i-single-product .product-info {
+	display: inline-block;   
+}
+
+.m2i-single-product .product-name {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.m2i-single-product .in-stock {
+	text-transform: uppercase;
+	padding-right: 20px;
+}
+
+.m2i-single-product .price {
+	font-size: 32px;
+	line-height: 60px;
+}
+
+.m2i-single-product .product-image {
+	float:left;
+}
+
+.m2i-single-product .product-info .to-cart button {
+	line-height: 2rem;
+	padding: 17px 17px 18px;
+	font-size: 1.8rem;
+}
+
+.m2i-single-product .product-info .to-cart input {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.m2i-single-product .product-info .to-cart label {
+	padding: 0 10px 0 20px;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.m2i-clear {
+	clear: both;
+}
+
+.m2i-product-slider {
+	width: 100%;
+	margin: 0;
+}

@@ -1,0 +1,28 @@
+/*
+Theme Name: Twentyseventeen child m2i with Luma theme
+Theme URI: https://modernminds.nl
+Description: Sample of Magento 2 integration (Twentyseventeen child theme with Luma theme)
+Version: 1.0.0
+Author: ModernMinds
+Author URI: https://modernminds.nl
+Template: twentyseventeen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: m2i
+Text Domain: m2i
+*/
+
+@import url("../twentyseventeen/style.css");
+
+#page header.page-header {
+	float: none;
+	width: 100%;
+}
+
+header .nav-sections {
+	margin-bottom: 0;
+}
+
+.site-footer {
+	padding-top: 0;
+}

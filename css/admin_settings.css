@@ -1,0 +1,69 @@
+.m2i_status_check{
+	width: 25px;
+	height: 25px;
+	margin-left: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-top: -5px;
+}
+.tooltip {
+	display: inline-block;
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+	background-color: rgba(225, 225, 225, 0.8);
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
+.options-panel{
+	width:80%;
+}
+.clearfix{
+	clear:both;
+}
+.multi-ordering{
+	text-decoration: none;
+	font-size: 20pt;
+	margin: 5px;
+	cursor: pointer;
+}
+
+select[data-type="multi-ordering"]{
+	display: block;
+}
+
+.widget-content .select2-container {
+	width: 100% !important;
+}
+
+.modal-open .select2-container {
+	z-index: 100050;
+	width: 300px !important;
+}
+
+.modal-open #m2i-modal-tabs .select2-container + .select2-container {
+	display: none;
+}
+
+.options-panel .select2-container {
+	width: 300px !important;
+}
+
+.select2{
+	display: block;
+}
+
+.select2 + select + .select2{
+	margin-top: 10px;
+}

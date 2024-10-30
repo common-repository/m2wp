@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magento 2 Wordpress Integration\n"
+"POT-Creation-Date: 2018-09-06 14:44+0300\n"
+"PO-Revision-Date: 2018-09-06 14:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: Modern Minds <devs@modernminds.nl>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: magento2-integration.php\n"
+"X-Poedit-SearchPath-1: include\n"
+
+#: include/classes/M2I_Editor_Button.php:45
+msgid "Magento2 Shortcodes"
+msgstr "Magento2 Шорткод"
+
+#: include/classes/M2I_Editor_Button.php:45
+msgid "Add Magento2 Shortcode"
+msgstr "Додати Magento2 Шорткод"
+
+#: include/classes/M2I_Settings.php:78
+msgid "General Settings"
+msgstr "Загальні Налаштування"
+
+#: include/classes/M2I_Settings.php:78
+msgid "Advanced Settings"
+msgstr "Просунуті Налаштування"
+
+#: include/classes/M2I_Settings.php:94
+msgid "Magento 2 Integration"
+msgstr "Magento 2 Інтеґрація"
+
+#: include/classes/M2I_Settings.php:110
+msgid "Absolute path to Magento 2 root directory"
+msgstr "Повний шлях до основної директорії Magento 2"
+
+#: include/classes/M2I_Settings.php:111
+msgid "Store View"
+msgstr "Назва Крамниці (store view)"
+
+#: include/classes/M2I_Settings.php:115
+msgid "Add header/footer automatically"
+msgstr "Додавати заголовок/спід самочинно"
+
+#: include/classes/M2I_Settings.php:116
+msgid "recommended"
+msgstr "радимо"
+
+#: include/classes/M2I_Settings.php:119
+msgid "Names for header block in layout (order preserved)"
+msgstr "Імена блоків для заголовку в макеті (порядок зберігається)"
+
+#: include/classes/M2I_Settings.php:120
+msgid "Names for footer block in layout (order preserved)"
+msgstr "Імена блоків для споду в макеті (порядок зберігається)"
+
+#: include/classes/M2I_Settings.php:125
+msgid "Enable Magento Layout approach"
+msgstr "Увімкнути розбір макету через Magento "
+
+#: include/classes/M2I_Settings.php:126
+msgid ""
+"Fetch elements from Magento 2 by using Magento Layout structure, otherwise "
+"will used DOM aproach (not recommended)."
+msgstr ""
+"Вибирати елементи з Magento 2, використовуючи її макетний підхід, якщо "
+"вимкнено, буде використано DOM підхід (не радимо)"
+
+#: include/classes/M2I_Settings.php:132
+msgid "CSS selector for header section"
+msgstr "CSS вибирач для секції заголовку"
+
+#: include/classes/M2I_Settings.php:133
+msgid "CSS selector for footer section"
+msgstr "CSS вибирач для секції споду"
+
+#: include/classes/M2I_Settings.php:137
+msgid "Show header"
+msgstr "Показувати заголовок"
+
+#: include/classes/M2I_Settings.php:138
+msgid "Show footer"
+msgstr "Показувати спід"
+
+#: include/classes/M2I_Settings.php:140
+msgid "Include head JS files"
+msgstr "Включати JS файли із голови сторінки"
+
+#: include/classes/M2I_Settings.php:141
+msgid "Include body JS files"
+msgstr "Включати JS файли із тіла сторінки"
+
+#: include/classes/M2I_Settings.php:142
+msgid "Move Magento2 JS files to footer"
+msgstr "Перемістити Magento2 JS файли до споду"
+
+#: include/classes/M2I_Settings.php:143
+msgid "Exclude JS files"
+msgstr "Виключати JS файли"
+
+#: include/classes/M2I_Settings.php:143
+msgid ""
+"Exclude certain JS files before including JS files from Magento 2 to avoid "
+"conflicts. Separate scripts names with commas. Only scripts from"
+msgstr ""
+"Виключати певні JS файли перед завантаженням Magento 2 JS файлів, аби "
+"передбачити конфлікти. Розділіть ім'я скриптів комами. Лише скрипти з"
+
+#: include/classes/M2I_Settings.php:143
+msgid "will be filtered."
+msgstr "будуть виключені."
+
+#: include/classes/M2I_Settings.php:145
+msgid "Include CSS files"
+msgstr "Включити CSS файли"
+
+#: include/classes/M2I_Settings.php:146
+msgid "Include JS scripts"
+msgstr "Включити JS скрипти"
+
+#: include/classes/M2I_Settings.php:148
+msgid "Do not use select2.js lib for input fields in admin"
+msgstr "Не використовувати select2.js бібліотеку для полів уводу в тилевиці"
+
+#: include/classes/M2I_Settings.php:160
+msgid "Configuration settings"
+msgstr "Конфігураційні налаштування"
+
+#: include/classes/M2I_Settings.php:161
+msgid ""
+"Please, configure the options below to activate the integration with Magento "
+"2. After validation make sure to save the options."
+msgstr ""
+"Будь ласка, сконфігуруйте опції нижче, щоб активувати інтеграцію із Magento "
+"2. Опісля проходження валідації,  збережіть налаштування."
+
+#: include/classes/M2I_Settings.php:168
+msgid "Automatic integration settings"
+msgstr "Налаштування самочинної інтеграції"
+
+#: include/classes/M2I_Settings.php:169
+msgid ""
+"The options below are optional and will not work with all themes. This "
+"plugin will try to automatically show styles, javascript and headers and "
+"footer in case you ask this. When this feature does not work for your setup, "
+"then please use our custom functions in your template files (see "
+"documentation at"
+msgstr ""
+"Опції нижче є необов'язковими і можуть не працювати з усіма темами. Плаґін "
+"намагатиметься  самочинно показати стилі, скрипти та заголовок зі сподом, "
+"якщо ви підтвердите це. На випадок якщо ця можливість не спрацює на вашій "
+"системі, тоді, будь ласка, спробуйте використати наші власні функції у ваших "
+"темплейт-файлах ( дивіться документацію на"
+
+#: include/classes/M2I_Settings.php:177
+msgid "Alternative way to fetch Magento 2 elements"
+msgstr "Інший спосіб вибірки Magento 2 елементів"
+
+#: include/classes/M2I_Settings.php:178
+msgid ""
+"Only use these options when you know what you are doing. By enabling this "
+"feature we will try to fetch information from Magento 2 by using another "
+"approach. We recommend using this feature only when you get stuck with the "
+"normal approach or when you dont get the results you want."
+msgstr ""
+
+#: include/classes/M2I_Settings.php:184
+msgid "Advanced Options"
+msgstr "Просунуті Налаштування"
+
+#: include/classes/M2I_Settings.php:514
+msgid "Magento 2 Integration Settings"
+msgstr "Magento 2 Налаштування Інтеґрації"
+
+#: include/classes/M2I_Settings.php:541
+msgid "Help Tab"
+msgstr ""
+
+#: include/classes/M2I_Settings.php:545
+msgid "Go to the help link"
+msgstr ""
+
+#: include/classes/M2I_Settings.php:546
+msgid ""
+"Please read our full implementation FAQ on our website in case you run into "
+"problems with setting up the plugin."
+msgstr ""
+
+#: include/classes/widgets/M2I_Block_Widget.php:20
+msgid "Magento Block"
+msgstr ""
+
+#: include/classes/widgets/M2I_Block_Widget.php:24
+msgid "Show any Magento block"
+msgstr ""
+
+#: include/classes/widgets/M2I_Block_Widget.php:43
+#: include/classes/widgets/M2I_Block_Widget.php:55
+#: include/classes/widgets/M2I_Cart_Widget.php:49
+#: include/classes/widgets/M2I_Cart_Widget.php:58
+#: include/classes/widgets/M2I_Product_Widget.php:44
+#: include/classes/widgets/M2I_Product_Widget.php:53
+#: include/classes/widgets/M2I_Slider_Widget.php:61
+msgid "Title"
+msgstr ""
+
+#: include/classes/widgets/M2I_Block_Widget.php:56
+msgid "Block"
+msgstr ""
+
+#: include/classes/widgets/M2I_Cart_Widget.php:19
+msgid "Magento Cart"
+msgstr ""
+
+#: include/classes/widgets/M2I_Cart_Widget.php:28
+msgid "Show Cart"
+msgstr ""
+
+#: include/classes/widgets/M2I_Cart_Widget.php:59
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: include/classes/widgets/M2I_Product_Widget.php:22
+msgid "Magento Product"
+msgstr ""
+
+#: include/classes/widgets/M2I_Product_Widget.php:26
+msgid "Show any Magento product"
+msgstr ""
+
+#: include/classes/widgets/M2I_Product_Widget.php:56
+msgid "SKU"
+msgstr ""
+
+#: include/classes/widgets/M2I_Product_Widget.php:58
+msgid "SKU or ID"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:20
+msgid "Magento Product Slider"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:24
+msgid "Show a product slider with your Magento 2 products"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:46
+msgid "Products"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:62
+msgid "Categories"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:63
+msgid "Number of products to show"
+msgstr ""
+
+#: include/classes/widgets/M2I_Slider_Widget.php:64
+msgid "Margin between blocks in %"
+msgstr ""
+
+#: include/templates/product-view.php:48
+msgid "In Stock"
+msgstr ""
+
+#: include/templates/product-view.php:50
+msgid "SKU:"
+msgstr ""
+
+#: include/templates/product-view.php:62 include/templates/product-view.php:63
+#: include/templates/product-view.php:101 include/templates/slider.php:48
+#: include/templates/slider.php:93 include/templates/slider.php:94
+msgid "Add to Cart"
+msgstr ""
+
+#: include/templates/product-view.php:65
+msgid "Quantity"
+msgstr ""
+
+#: include/templates/product-view.php:86 include/templates/slider.php:33
+msgid "Adding..."
+msgstr ""
+
+#: include/templates/product-view.php:95 include/templates/slider.php:42
+msgid "Added."
+msgstr ""
+
+#: include/templates/product-view.php:109 include/templates/slider.php:56
+msgid "Redirecting to product page..."
+msgstr ""
+
+#: include/tooltips.php:13
+msgid ""
+"Should we automatically try to add the Magento header/footer to your WP "
+"theme? Will not always work with all WP themes. Disable this option, if it "
+"is not working."
+msgstr ""
+
+#: include/tooltips.php:14
+msgid ""
+"There are 2 ways to integrate with Magento. The Magento Layout approach uses "
+"the Magento API to retrieve the XML blocks of the layout. Try the other "
+"approach (DOM approach in other tab) if this is not working, otherwise use "
+"this option please. The Layout approach is always the prefered method."
+msgstr ""
+
+#: include/tooltips.php:15
+msgid ""
+"Normally Magento 2 should run from the pub directory as explained in our FAQ "
+"on our website. Magento 2 can run from root directory in development mode in "
+"case you need this. Make sure to flip this option when going in production "
+"mode."
+msgstr ""
+
+#: include/tooltips.php:16
+msgid ""
+"Use to avoid conflicts with external JS libraries, otherwise dont enable "
+"this option. Currently, incompatible with our cart widget."
+msgstr ""
+
+#: include/tooltips.php:17
+msgid ""
+"Use to avoid conflicts with external JS libraries on admin pages. In some "
+"cases there is a conflict with select2.js library in the WP Admin and with "
+"this option you disable our inclusion of this library so that the problem "
+"will be solved."
+msgstr ""
+
+#: include/tooltips.php:18
+msgid ""
+"Enable this option if you want to show the Magento header output and include "
+"this in your WordPress theme."
+msgstr ""
+
+#: include/tooltips.php:19
+msgid ""
+"Enable this option if you want to show the Magento footer output and include "
+"this in your WordPress theme."
+msgstr ""
+
+#: include/tooltips.php:20
+msgid ""
+"Should the JS files from the head tag be included? Experiment with these "
+"options when you have issues with your JS."
+msgstr ""
+
+#: include/tooltips.php:21
+msgid ""
+"Should the JS files that are inside the body tag be included? Experiment "
+"with these options when you have issues with your JS."
+msgstr ""
+
+#: include/tooltips.php:22
+msgid ""
+"Should any JS files be included? You can disable this is if you want to "
+"include them manually to solve conflicts."
+msgstr ""
+
+#: include/tooltips.php:23
+msgid ""
+"Should any CSS files be included? You can disable this is if you want to "
+"include them manually to solve conflicts."
+msgstr ""
+
+#: magento2-integration.php:273
+msgid ""
+"Irks! You have not configured Magento root directory in the right way for "
+"<b>Magento 2 integration</b> plugin. Please, go to %settings%."
+msgstr ""
+
+#: magento2-integration.php:277
+msgid ""
+"Irks! <b>Magento 2 integration</b> plugin can not find a Bootstrap class. "
+"Please, go to %settings% and reconfigure directory parameters."
+msgstr ""
+
+#: magento2-integration.php:281
+msgid ""
+"Irks! <b>Magento 2 integration</b> plugin can not find selected store. "
+"Please, reconfigure store parameter."
+msgstr ""
+
+#: magento2-integration.php:285
+msgid ""
+"Irks! <b>Magento 2 integration</b> plugin requires PHP >= 5.5.9. And as for "
+"PHP 7 it requires PHP >= 7.0.8!"
+msgstr ""
+
+#: magento2-integration.php:289
+msgid ""
+"Irks! <b>Magento 2 integration</b> plugin requires PHP xml extension be "
+"installed!"
+msgstr ""
+
+#: magento2-integration.php:318
+msgid "Settings"
+msgstr "Налаштування"
+
+#: magento2-integration.php:436
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" target=\"_blank"
+"\">View version %3$s details</a>."
+msgstr ""
+
+#~ msgid "Class for header section"
+#~ msgstr "Ім'я класу заголовка"
+
+#~ msgid "HTML tag for header section"
+#~ msgstr "HTML теґ заголовка"
+
+#~ msgid "Class for footer section"
+#~ msgstr "Ім'я класу споду"
+
+#~ msgid "HTML tag for footer section"
+#~ msgstr "HTML теґ споду"
